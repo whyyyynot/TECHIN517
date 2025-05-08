@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>custom_msgs</name>
+  <version>0.0.0</version>
+  <description>Custom interface package</description>
+  <maintainer email="you@example.com">Your Name</maintainer>
+  <license>Apache-2.0</license>
+
+  <!-- build -->
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <depend>rosidl_default_generators</depend>
+  <depend>std_msgs</depend>
+
+  <!-- install/runtime -->
+  <exec_depend>rosidl_default_runtime</exec_depend>
+
+  <!-- THIS is the missing line -->
+  <member_of_group>rosidl_interface_packages</member_of_group>
+</package>
+
